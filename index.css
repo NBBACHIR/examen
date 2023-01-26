@@ -1,0 +1,181 @@
+*{
+    margin: auto;
+}
+body{
+    background-image: url(./flower3.jpg) ;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
+li{
+    list-style: none;
+}
+
+
+ .container{
+    background-color: rgba(224, 221, 213, 0.863);
+    margin: 45px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* html{
+    scroll-behavior: smooth;
+} */
+
+.container > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 10px;
+    width: 500px;
+    text-align: center;
+    margin: 2px 0px;
+    padding: 0px 15px 15px 0px;
+}
+.logo{
+    margin-top: 3px;
+ margin-left: 0px;
+}
+ a{
+   color: rgb(149, 67, 221);
+
+}
+a{
+   
+    /* display: inline-block; */
+    display: block;
+    width: 100px;
+    /* display: inline-block; */
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0px;
+ 
+
+
+}
+
+
+.cart{
+    margin-right: 0px;
+}
+
+
+/* parag */
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* justify-items: center; */
+}
+span{
+    display: block;
+}
+p{
+    margin-top: 30px;
+    text-align: center;
+}
+.parag > h1 {
+
+    margin-top: 100px;
+    font-size: 35px;
+text-align: center;
+}
+.shop {
+    display: flex;
+    flex-direction: row;
+    margin: 45px 100px;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.shop  p{
+   font-weight: bold;
+}
+.photo1{
+    display: block;
+    margin-left: 150px;
+    /* width: 400px;
+    height: 400px; */
+    
+}
+.photo2{
+    display: block;
+    margin-right: 150px;
+    /* width: 400px;
+    height: 400px; */
+    
+}
+.parag  p{
+    font-weight: bold;
+ }
+.text {
+    padding: 20px;
+}
+button {
+ 
+    border: 2px solid black;
+ background-color: black;
+ width: 150px;
+ height: 50px;
+ font-size:x-large;
+} 
+button > a{
+ color: aliceblue;
+ display: inline;
+ text-align: center;
+
+}
+footer > div {
+    padding: 0px 20px;
+    margin: 0px;}
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px 80px;
+    margin-left: 120px;
+    margin-right: 120px;
+    background-color: rgba(150, 142, 120, 0.61);
+    height: 150px;
+}
+footer p {
+text-align:justify;}
+
+@media (max-width: 500px) {
+    footer {
+       display: flex;
+          
+            flex-wrap: nowrap;
+            padding: 20px 10px;
+            width: 700px;
+            background-color: rgba(150, 142, 120, 0.61);
+            height: 250px;
+        margin: 0px;}
+    }
+  /* Small */
+@media (min-width: 768px) {
+    header {
+      width: 750px;
+    }
+  }
+  /* Medium */
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  /* Large */
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
